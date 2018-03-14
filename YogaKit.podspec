@@ -17,6 +17,7 @@ podspec = Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = '8.0'
   spec.ios.frameworks = 'UIKit'
+  spec.static_framework = true
 
   spec.dependency 'Yoga', '~> 1.7'
   spec.source_files = 'YogaKit/Source/*.{h,m,swift}'
