@@ -13,6 +13,9 @@ Pod::Spec.new do |spec|
     :git => 'https://github.com/facebook/yoga.git',
     :tag => '1.7.0',
   }
+  
+  spec.ios.deployment_target = "8.0"
+  spec.tvos.deployment_target = "9.2"
 
   spec.module_name = 'yoga'
   spec.requires_arc = false
